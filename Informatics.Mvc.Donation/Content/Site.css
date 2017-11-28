@@ -1,0 +1,155 @@
+﻿body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #ececec;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    background: #fff;
+    box-shadow: 0 3px 2px rgba(0,0,0,.1);
+    border: none;
+}
+
+.main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-top-inner {
+    min-height: 375px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    border-top: 5px solid #97a33f;
+}
+
+/*.comments-heading {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}*/
+
+.footer-section {
+    padding-top: 20px;
+}
+
+.commentList {
+    padding: 0;
+    list-style: none;
+    max-height: 290px;
+    overflow-y: auto;
+    margin-bottom: 0px !important;
+}
+
+    .commentList li {
+        margin: 0;
+        margin-top: 10px;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+    }
+
+        .commentList li > div {
+            display: table-cell;
+        }
+
+.commenterImage {
+    width: 45px;
+    margin-right: 5px;
+    height: 100%;
+    float: left;
+}
+
+    .commenterImage img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+.commentText p {
+    margin: 0;
+}
+
+.sub-text {
+    color: #aaa;
+    font-family: verdana;
+}
+
+.no-comment {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.field-validation-error {
+    color: #c34d4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Value */
+#gauge text:nth-child(6) tspan {
+    font-size: 0.5em !important;
+}
+
+.divGauge {
+    width: 255px;
+    height: 210px;
+    margin: auto;
+}
+
+.divPanelBody {
+    min-height: 320px;
+}
+
+.panelHeading {
+    line-height: 0px;
+}
+
+.divListDonation {
+    margin-top: 10px;
+}
+
+div.ui-dialog-buttonset button:last-child {
+    margin-right: 0;
+}
+
+label.required:after {
+    content: "*";
+    color: red;
+}
